@@ -1,0 +1,45 @@
+/* Styles go here */
+body{
+  background: url("http://bit.ly/2h5YT27") no-repeat bottom right fixed;
+}
+
+li{
+  font-size:20px;
+  font-family:david;
+ list-style-type:none;
+ text-align:center;
+}
+
+
+li:nth-child(1){
+  color:#DBC6AF;
+  background-color: #4B7C64 ;
+  font-weight:bold;
+}
+
+li:nth-child(2){
+  color:#C58C58;
+  background-color: #DBC6AF;
+}
+
+li:nth-child(3){
+  color:#134230;
+  background-color:#C58C58;
+    text-decoration: line-through;
+}
+
+li:nth-child(4){
+  color: #DBC6AF;
+  background-color:#134230;
+}
+
+li:nth-child(5){
+  color:#4B7C64;
+  background-color:#603A20;
+}
+
+li:nth-child(6){
+  color:#603A20;
+  background-color:#4B7C64;
+}
+
