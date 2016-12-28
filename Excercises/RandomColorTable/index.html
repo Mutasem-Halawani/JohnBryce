@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+  <table id="change_color">
+    <tr>
+      <td>First Name</td>
+      <td>Last Name</td>
+      <td>Phone</td>
+      <td>Email</td>
+    </tr>
+    <tr>
+      <td>jack</td>
+      <td>asgf</td>
+      <td>125123</td>
+      <td>@yahoo</td>
+    </tr>
+    <tr>
+      <td>jong</td>
+      <td>aga</td>
+      <td>124123</td>
+      <td>@google</td>
+    </tr>
+    <tr>
+      <td>jogn</td>
+      <td>ert</td>
+      <td>12123</td>
+      <td>@hotmail</td>
+    </tr>
+  </table>
+</body>
+
+<script type="text/javascript">
+    var color=new Array("#CCFFCC", "#FFCCCC","#FF0000","#FFFF00","#00FF00","#00FFFF","#0000FF","#CCCCCC");
+    window.document.getElementById("change_color").style.background=color[Math.floor(Math.random()*color.length)]
+</script>
+</html>
