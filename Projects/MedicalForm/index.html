@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <fieldset>
+    <legend>Medical Form</legend>
+    <form action="http://phptestengine.000webhostapp.com/forms.php" method="post">
+      <pre>First  &#8675;   Name    &#8675;</pre>
+      <input type="text" name="firstname" placeholder="Please write your first name" />
+      <pre>Last   &#8675;   Name    &#8675;</pre>
+      <input type="text" name="lastname" placeholder="Please write your last name" />
+      <br/>
+      <br/>
+      <p>Address</p>
+      <input type="text" name="city" placeholder="Please write your address" />
+      <br/>
+      <br/><span>male</span>
+      <input type="radio" name="sex" value="male" />
+      <span>female</span>
+      <input type="radio" name="sex" value="female" />
+      <p>More Information:</p>
+      <div>
+      <span>האם אתה בדרך כלל בריא?</span>
+      <input type="checkbox" name="healthy" value="yes" />
+      <br/><span>האם אתה עוסק בפעילות ספורטיבית?</span>
+      <input type="checkbox" name="sport" value="yes" />
+      <br/><span>האם היית אי פעם מאושפז?(במידה וכן, פרט)</span>
+      <input onclick="myFunction()" type="checkbox" name="hospital" value="yes" />
+      </div>
+     
+      <br/>
+      <textarea id="textDisable" disabled cols="30" rows="5"></textarea>
+      <br/>
+      <br/>
+      <button>Submit</button>
+    </form>
+
+  </fieldset>
+</body>
+
+</html>
