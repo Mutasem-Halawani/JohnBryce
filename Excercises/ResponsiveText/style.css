@@ -1,0 +1,16 @@
+
+h1{
+  text-align:center;
+  text-decoration:underline;
+}
+
+p{
+  background-color:gray;
+  text-indent:-20px;
+  padding:35px;
+  margin:10px 150px;
+}
+
+span{
+  font-weight:bold;
+}
