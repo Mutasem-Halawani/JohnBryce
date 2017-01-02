@@ -1,0 +1,8 @@
+div{
+  text-align:center;
+  border:1px solid black;
+  float:left;
+  width:23%;
+  padding:20px 5px;
+  background-color:gray;
+}
