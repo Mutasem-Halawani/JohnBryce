@@ -1,0 +1,83 @@
+/* Styles go here */
+
+.all {
+  background-color: #2C2C2C;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  position:relative;
+}
+
+h1,
+button {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  font-family: Georgia;
+  font-size: 25px;
+}
+
+button {
+  background: radial-gradient(#8D9220, #848816, #7F8311);
+  border-radius: 20px;
+  padding: 10px 30px;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: 15px;
+  border: none;
+  font-size: 20px;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+input {
+  background-color: #DADADA;
+  border-radius: 20px;
+  width: 100%;
+  height: 30px;
+  text-indent: 35px;
+}
+
+input:focus {
+  outline-color: orange;
+}
+
+::-webkit-input-placeholder {
+  color: #848816;
+  font-size: 16px;
+}
+
+.icon {
+  position: relative;
+  top: 35px;
+  left: 5px;
+}
+
+#check{
+  position:absolute;
+  left:-210px;
+  height:15px;
+}
+span{
+  color:white;
+  padding:5px;
+ 
+}
+
+.agree{
+  position:relative;
+  bottom:10px;
+  left:30px;
+   margin-top:20px;
+}
+
+.agree a{
+  color:#848816;
+}
+
