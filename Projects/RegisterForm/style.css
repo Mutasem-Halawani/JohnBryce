@@ -1,0 +1,72 @@
+/* Styles go here */
+
+.all {
+  background-color: #2C2C2C;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+h1,
+button {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  font-family: Georgia;
+  font-size:25px;
+}
+
+.btmln{
+  border-bottom: 2px solid black;
+  width:100%;
+  position:absolute;
+  right:0;
+}
+
+button {
+  background: radial-gradient(#8D9220, #848816, #7F8311);
+  border-radius: 20px;
+  padding: 10px 30px;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: 15px;
+  border: none;
+  font-size: 18px;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+input {
+  background-color: #DADADA;
+  border-radius: 20px;
+  width: 100%;
+  height: 30px;
+  text-indent: 30px;
+}
+
+input:focus {
+  outline-color: orange;
+}
+
+::-webkit-input-placeholder {
+  color: #848816;
+  font-size: 16px;
+}
+
+.person {
+  position: relative;
+  top: 35px;
+  left: 5px;
+}
+
+.lock {
+  position: relative;
+  top: 35px;
+  left: 5px;
+}
