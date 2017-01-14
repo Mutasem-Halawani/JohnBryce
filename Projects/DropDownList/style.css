@@ -1,0 +1,53 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.nav {
+  background-color: #EEEEEE;
+  height: 40px;
+}
+
+.menu {
+  position: relative;
+  float: left;
+  padding: 10px;
+  left: 25%;
+  right: 25%;
+  width: 120px;
+  font-size: 16px;
+}
+
+.subMenu {
+  background-color: #DDD;
+  position: absolute;
+  left: 4px;
+  top: 100%;
+  visibility: hidden;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.menu a:hover { color: #F55; }
+
+.subMenu li {
+  margin-left: -30px;
+  padding: 5px;
+}
+
+.menu:hover .subMenu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+.subMenu li:hover {
+  opacity: 0.5;
+}
