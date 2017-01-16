@@ -1,0 +1,77 @@
+
+.container{
+    max-width: 550px;
+}
+
+.outer {
+  width: 70%;
+  margin: 30px auto;
+
+}
+
+ button {
+      width: 100%;
+      border-radius:5px;
+    }
+    
+     li{
+      text-align:center;
+      box-sizing: border-box;
+      margin-left: 0px !important;
+
+     }
+    li.active>a{
+      background-color:rgb(42,187,154) !important;
+      color:white !important;
+    }
+    .btn, .btn:hover, .btn:focus, .btn:active:hover,.btn:active{
+      background-color:white !important;
+    }
+    li a{
+      color: #2ABB9A !important;
+    }
+    
+.loginButton {
+  width: 100%;
+  background-color: #2ABB9A;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.registerButton{
+    width: 100%;
+  background-color: #2ABB9A;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.topButton {
+  width: 49%;
+  margin: 1px;
+  float: left;
+  background-color: #2ABB9A;
+  border: none;
+  color: white;
+  padding: 12px;
+}
+
+.input-group {
+  margin: 15px;
+}
+
+button:hover {
+  background-color: #20b290;
+}
+
+.border {
+  padding: 5px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.forgot{
+  float:right;
+  margin-left:20px;
+}
+
