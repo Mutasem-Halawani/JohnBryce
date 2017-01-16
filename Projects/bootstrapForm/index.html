@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="container outer">
+
+   <ul class="nav nav-pills ">
+      <li class="active col-sm-6">
+        <a data-toggle="pill" href="#lgn">Login</a>
+      </li>
+      <li class="col-sm-6" >
+        <a data-toggle="pill" href="#rgs">Register</a>
+      </li>
+    </ul>
+    
+    <div class="container">
+      <div class="border"></div>
+    </div>
+   <div class="tab-content">
+     <div id="rgs" class="tab-pane fade ">
+    <div class="container">
+    
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+      <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+      <input type="text" class="form-control" placeholder="Full name" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope"></span></span>
+      <input type="textx" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+      <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+      <input type="text" class="form-control" placeholder="Confirm Password" aria-describedby="basic-addon1">
+    </div>
+    <button class="loginButton">Register</button>
+    </div>
+  
+      </div>
+
+<div id="lgn" class="tab-pane fade in active">
+   <div class="container">
+  <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+      <input type="text" class="form-control" placeholder="Username or Email" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+      <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+      
+    </div>
+   <div class="container">
+    
+     <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">Remember me</span>
+      </label>
+    
+      <a href="#" class="forgot">Forgot password?</a>
+     
+       </div>
+      <button class="registerButton">Login</button>
+      </div>
+ 
+   </div>
+   </div>
+    </div>
+
+</body>
+
+</html>
