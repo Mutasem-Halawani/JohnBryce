@@ -1,0 +1,22 @@
+.container-fluid > button{
+  float:right;
+}
+
+@media   screen and (max-width: 800px){
+  .container-fluid > button{
+    float:left;
+}
+}
+.glyphicon-chevron-right{
+  font-size:10px;
+  margin:-2px;
+}
+
+.arrows{
+  margin-left:4px;
+}
+
+.row{
+  padding-bottom:25px;
+  border-bottom:1px solid #EEEEEE;
+}
