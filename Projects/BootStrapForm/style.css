@@ -1,0 +1,15 @@
+.container{
+  background-color:#EEEEEE;
+  margin-top:-19px;
+}
+.navbar {
+  background-color: #448BCB;
+  height: 50px;
+}
+.navbar-header a {
+  vertical-align: middle;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
