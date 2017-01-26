@@ -1,0 +1,144 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <script type='text/javascript' src='js/bootstrap.js'></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand " href="#">Almaguin campground - Reservation</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-md-2">
+         Accomodation
+      </label>
+        <div class="col-md-2">
+          <select class="form-control">
+          <option>RV</option>
+        </select>
+        </div>
+      </div>
+      <div class=form-group>
+        <label class="control-label col-md-2">Name</label>
+        <div class="col-md-1">
+          <select class="form-control">
+            <option>Mr</option>
+            <option>Mrs</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <input class="form-control" placeholder="First Name" />
+        </div>
+        <div class="col-md-3">
+          <input class="form-control" placeholder="Last Name" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-2">Guests</label>
+        <div class="col-md-2">
+          <input class="form-control" type="number" placeholder="+18 years" min="0" />
+        </div>
+        <div class="col-md-3">
+          <input class="form-control" type="number" placeholder="2-17 years" min="0" />
+        </div>
+        <div class="col-md-2">
+          <input class="form-control" type="number" placeholder="< 2 years" min="0" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-2">Contact</label>
+        <div class="col-md-7">
+          <input class="form-control" placeholder="E-mail" type="email" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-md-7 col-md-offset-2">
+          <input class="form-control" placeholder="Phone (xxx)-xxx xxxx" />
+        </div>
+      </div>
+     <div class="form-group">
+    <label class="control-label col-md-2">CheckIn</label>
+       <div class="col-md-2">
+          <div class="input-group">
+         <input class="form-control"/>
+         <span class="input-group-addon">
+           <span class="glyphicon glyphicon-calendar"></span>
+         </span>
+       </div>
+              </div>
+       <label class="control-label col-md-2">CheckOut</label>
+       <div class="col-md-2">
+         <div class="input-group">
+         <input class="form-control"/>
+         <span class="input-group-addon">
+           <span class="glyphicon glyphicon-calendar"></span>
+         </span>
+         </div>
+            </div>     
+         </div>
+      <div class="form-group">
+        <label class="control-label col-md-2">
+         Equipment type
+      </label>
+        <div class="col-md-2">
+          <select class="form-control">
+          <option>Travel trailer</option>
+        </select>
+        </div>
+        <label class="control-label col-md-2">
+         Slide-outs
+      </label>
+        <input type="checkbox"  data-toggle="toggle" data-on="Yes" data-off="No"/>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-2">
+         Required Service
+      </label>
+        <div class="col-md-2">
+          <select class="form-control">
+          <option>None selected</option>
+        </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-2">
+         Pets
+      </label>
+        <div class="col-md-1">
+          <input type="checkbox" data-toggle="toggle" data-on="Yes" data-off="No"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-2">
+         Comments
+      </label>
+        <div class="col-md-7">
+          <textarea class="form-control" placeholder="Additional comments" rows="5">
+          </textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-md-6 col-md-offset-2">
+          <button type="button" class="btn btn-primary">Request Reservation</button>
+        </div>
+        <button type="button" class="btn btn-danger">Cancel</button>
+      </div>
+  </form>
+  </div>
+</body>
+</html>
