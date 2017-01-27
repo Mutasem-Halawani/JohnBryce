@@ -1,0 +1,46 @@
+nav {
+  padding: 10px;
+}
+.btn {
+  margin-top: 9px;
+}
+.main {
+  padding-top: 40px;
+  margin-top: -21px;
+  background: radial-gradient(#05AFC8, #00659D);
+  color: white;
+}
+.btn-lg {
+  padding: 8px 50px !important;
+  margin-top: 10px;
+}
+.tnbtn {
+  background: linear-gradient(to left, #05AFC8, #00659D) !important;
+}
+.ftbtn {
+  background: linear-gradient(to right, #05AFC8, #00659D) !important;
+  margin-left: 10px;
+}
+p {
+  font-size: 1.5em !important;
+  font-weight: lighter !important;
+}
+.navbar-custom {
+  background-color: black !important;
+}
+.dropdown-toggle,
+.nav a {
+  color: gray !important;
+}
+.dropdown-toggle:hover,
+.dropdown-toggle:link,
+.dropdown-toggle:visited,
+.dropdown-toggle:active {
+  background-color: transparent !important;
+}
+.nav a:hover,
+.nav a:active,
+.nav a:visited,
+.nav a:link {
+  background-color: transparent !important;
+}
