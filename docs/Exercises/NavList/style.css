@@ -4,7 +4,6 @@ div {
   border-bottom: 3px solid #2E77B5;
 }
 
-
 button {
   background:linear-gradient(#4B4B4B, #323232);
   font-family: Montserrat;
@@ -18,11 +17,10 @@ button {
 
 button:hover {
   cursor:pointer;
-     background:linear-gradient(#519EE0, #3882C1);
-     box-shadow: 0 -4px 0 #519EE0;
+  background:linear-gradient(#519EE0, #3882C1);
+  box-shadow: 0 -4px 0 #519EE0;
 }
 
 button:visited{
-
 }
 
