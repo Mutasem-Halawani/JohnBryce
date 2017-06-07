@@ -9,26 +9,26 @@
 
 }
 
- button {
-      width: 100%;
-      border-radius:5px;
-    }
-    
-     li{
-      text-align:center;
-      box-sizing: border-box;
-      margin-left: 0px !important;
+button {
+  width: 100%;
+  border-radius:5px;
+}
 
-     }
-    li.active>a{
-      background-color:rgb(42,187,154) !important;
-      color:white !important;
-    }
-    .btn, .btn:hover, .btn:focus, .btn:active:hover,.btn:active{
-      background-color:white !important;
-    }
-    li a{
-      color: #2ABB9A !important;
+li{
+ text-align:center;
+ box-sizing: border-box;
+ margin-left: 0px !important;
+
+}
+li.active>a{
+  background-color:rgb(42,187,154) !important;
+  color:white !important;
+}
+.btn, .btn:hover, .btn:focus, .btn:active:hover,.btn:active{
+  background-color:white !important;
+}
+li a{
+  color: #2ABB9A !important;
     }
     
 .loginButton {
